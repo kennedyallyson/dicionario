@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dicionário</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img id="logo" src="img/dicionario-logo.png" alt="logo">
+    </header>
+    <div class="container">
+        <h1>Dicionário</h1>
+        <form action="#" method="GET">
+            <input id="word" type="text" placeholder="Digite uma palavra">
+            <button id="btn" class="button" type="submit" onclick="findWord()">Procurar</button>
+        </form>
+        <p id="result" class="meaning"></p>
+    </div>
+    <footer>
+        <div dir="ltr">This project is licensed under <a href="http://creativecommons.org/licenses/by-sa/2.5/pt/">Creative Commons Attribution-Share Alike 2.5 Portugal License</a>.</div>
+    </footer>
+    <script src="js/word.js"></script>
+</body>
+</html>

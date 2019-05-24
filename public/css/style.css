@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #8a2be2; 
+}
+
+#logo {
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    font-size: 60px;
+    padding: 20px;
+}
+
+.button {
+    background-color: #fff;
+    color: #8a2be2;
+    border: none;
+    border-radius: 4%;
+    display: inline-block;
+    font-weight: bold;
+    padding: 6px;
+    text-decoration: none;
+    outline: none;
+}
+
+.meaning {
+    color: #000;
+    font-family: "Frutiger", "Frutiger Linotype", "Univers", "Calibri", "Gill Sans", "Gill Sans MT", "Myriad Pro", "Myriad", "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, "Geneva", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    margin: 30px auto;
+    background-color: #fff;
+    border: 1px solid #D3CDAE;
+    font-size: 0.8em;
+    padding: 10px;
+    position: relative;
+    width: 500px;
+    visibility: hidden;
+}
+
+.meaning::before {
+    border-color: transparent #D3CDAE transparent transparent;
+    border-style: solid;
+    border-width: 14px;
+    content: "";
+    left: -28px;
+    margin-top: -14px;
+    position: absolute;
+    top: 50%;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-color: #6900ccc2;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+footer div {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    display: inline;
+    margin-left: 20px;
+}
+
+footer div a {
+    color: #fff;
+}
