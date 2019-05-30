@@ -1,15 +1,19 @@
 {
   "name": "dicionario",
   "version": "1.0.0",
-  "description": "",
+  "description": "A beautiful dictionary of the Portuguese language.",
   "main": "index.js",
   "scripts": {
     "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "dictionary",
+    "word",
+    "portuguese"
+  ],
+  "author": "Kennedy Allyson",
+  "license": "MIT",
   "dependencies": {
     "ejs": "^2.6.1",
     "express": "^4.16.4",
