@@ -16,7 +16,7 @@ app.use(favicon(path.join(__dirname, "public", "favicon.ico")));
 app.use("/", indexRouter);
 
 app.use((req, res, next) => {
-    res.status(404).send("Oops... Não existe essa página! ;(");
+  res.status(404).send("Oops... Não existe essa página! ;(");
 });
 
 app.listen(PORT, () => {console.info(`Server running on port ${PORT}`)});
