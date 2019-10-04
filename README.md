@@ -18,7 +18,7 @@ $ npm install
 #### Fisrt step:
 
 ```
-$ node app.js
+$ npm start
 ```
 
 #### Second step:
